@@ -1,5 +1,5 @@
-import Header from './Components/Header'
 import Nav from './Components/Nav'
+import Header from './Components/Header'
 import './sass/main.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 

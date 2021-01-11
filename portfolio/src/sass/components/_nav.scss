@@ -16,6 +16,8 @@
         text-align: center;
         cursor: pointer;
 
+    }
+
     &__background {
         height: 6rem;
         width: 6rem;
@@ -26,6 +28,7 @@
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+
     }
 
     &__nav {
@@ -37,8 +40,6 @@
 
         opacity: 0;
         width: 0;
-
-        //function 
         transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
@@ -106,7 +107,7 @@
         &::after {
             width: 3rem;
             height: 2px;
-            background-color: $color-primary;
+            background-color: $color-black;
             display: inline-block;
         }
 
@@ -142,6 +143,5 @@
     &__checkbox:checked + &__button &__icon::after {
         top: 0;
         transform: rotate(-135deg);
-    }
     }
 }
