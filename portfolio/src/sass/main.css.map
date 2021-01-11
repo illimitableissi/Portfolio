@@ -6,7 +6,8 @@
         "abstracts/_variables.scss",
         "components/_base.scss",
         "components/_header.scss",
-        "components/_nav.scss"
+        "components/_nav.scss",
+        "components/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
