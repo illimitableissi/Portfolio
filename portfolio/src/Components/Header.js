@@ -1,5 +1,5 @@
 import React from 'react';
-import vid1 from '../img/sunrise_in_the_park.mp4'
+import vid1 from '../img/sunrise_in_the_park.mp4';
 
 const Header = () => {
     return (
