@@ -22,6 +22,14 @@ body {
   text-align: center;
 }
 
+.header__main-name {
+  font-size: 5rem;
+}
+
+.header__sub-name {
+  font-size: 3rem;
+}
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -186,5 +194,9 @@ body {
   top: 0;
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
+}
+
+.footer {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,14 @@
 .header {
     color: red;
     text-align: center;
+
+    &__main-name{
+        font-size: 5rem;
+    }
+
+    &__sub-name {
+        font-size: 3rem;
+    }
 }
 
 .bg-video {

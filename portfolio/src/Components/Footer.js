@@ -5,10 +5,10 @@ import github from '../img/SVG/github.svg'
 
 const Footer = () => {
     return (
-        <div>
-            <img src={instagram} alt="" href=""/>
-            <img src={linkedIn} alt="" href=""/>
-            <img src={github} alt="" href=""/>
+        <div className="footer">
+            <img src={instagram} alt="" href="#"/>
+            <img src={linkedIn} alt="" href="#"/>
+            <img src={github} alt="" href="#"/>
         </div>
     );
 };
