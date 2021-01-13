@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 
-const Card = (props) => {
+const Cards = (props) => {
     return (
         <div>
-            <Card className="bg-dark text-white">
+            <Card className="bg-dark text-white projects__card">
                 <Card.Img src={props.src} alt="Card image" />
                 <Card.ImgOverlay>
                     <Card.Title>{props.title}</Card.Title>
@@ -20,4 +20,4 @@ const Card = (props) => {
     );
 };
 
-export default Card;
+export default Cards;

@@ -221,4 +221,11 @@ body {
   font-family: "Fredericka the Great", cursive;
   text-align: right;
 }
+
+.projects__card:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
 /*# sourceMappingURL=main.css.map */

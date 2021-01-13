@@ -159,4 +159,8 @@ const information = [
 ]
     
     export default { information, reactApps, pythonApps, websites }
+    // export default information
+    // export default websites
+    // export default reactApps
+    // export default pythonApps
     

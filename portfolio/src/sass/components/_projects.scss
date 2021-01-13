@@ -5,4 +5,12 @@
         font-family: $header-font;
         text-align: right;
     }
+
+    &__card {
+
+        &:hover {
+        transform: rotateY(360deg);
+        transition: all 2s;
+        }
+    }
 }
