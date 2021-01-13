@@ -14,20 +14,6 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 3rem;
-}
-
-.header {
-  color: red;
-  text-align: center;
-}
-
-.header__main-name {
-  font-size: 5rem;
-}
-
-.header__sub-name {
-  font-size: 3rem;
 }
 
 .bg-video {
@@ -45,6 +31,29 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.header {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.introduction {
+  color: #fff;
+  padding-left: 1rem;
+}
+
+.introduction__header {
+  font-size: 25rem;
+  font-family: "Fredericka the Great", cursive;
+  text-align: left;
+}
+
+.introduction__text {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40rem;
 }
 
 .navigation__checkbox {
@@ -110,12 +119,12 @@ body {
 
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300;
   padding: 1rem 2rem;
   color: #fff;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 220%;
   -webkit-transition: all .4s;
@@ -132,6 +141,7 @@ body {
   color: #55c57a;
   -webkit-transform: translateX(1rem);
           transform: translateX(1rem);
+  text-transform: uppercase;
 }
 
 .navigation__checkbox:checked ~ .navigation__background {
@@ -198,5 +208,17 @@ body {
 
 .footer {
   text-align: center;
+  background-color: #494949;
+}
+
+.footer__img {
+  height: 10rem;
+  padding: 1.5rem;
+}
+
+.portfolio__header {
+  font-size: 10rem;
+  font-family: "Fredericka the Great", cursive;
+  text-align: right;
 }
 /*# sourceMappingURL=main.css.map */
