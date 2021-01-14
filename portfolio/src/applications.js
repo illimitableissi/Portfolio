@@ -3,7 +3,7 @@ const websites = [
     name: "Natours",
     gitHub: "https://github.com/illimitableissi/Natours_HTML",
     link: "https://illimitableissi.github.io/Natours_HTML/",
-    img: "/images/natours.PNG"
+    img: "images/natours.PNG"
     },
     {   
     name: "Trillo",
@@ -24,17 +24,17 @@ const pythonApps = [
     {   
     name: "Blackjack",
     gitHub: "https://github.com/illimitableissi/Python_Blackjack",
-    message: "Blackjack"
+    img: ""
     },
     {   
     name: "Tic Tac Toe",
     gitHub: "https://github.com/illimitableissi/Python-TicTacToe",
-    message: "Tic Tac Toe"
+    img: ""
     },
     {   
     name: "I Declare War",
     gitHub: "https://github.com/illimitableissi/Python_War",
-    message: "War"
+    img: ""
     },
 ]
 

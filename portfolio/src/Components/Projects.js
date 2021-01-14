@@ -24,16 +24,31 @@ const Projects = () => {
                <Col>
                <h2>MERN Stack</h2>
                </Col> 
+               {project.reactApps.map(react =>
+               <Col md={3}>
+                 <Cards source={react.imgSrc} title={react.name} message={react.message} tech={react.tech} link={react.appLink} github={react.gitHub}/>
+               </Col> 
+                )} 
            </Row>
            <Row>
                <Col>
                <h2>Javascript</h2>
+               </Col>
+               {project.information.map(info =>
+               <Col md={3}>
+                  <Cards source={info.imgSrc} title={info.name} message={info.message} tech={info.tech} link={info.appLink} github={info.gitHub}/>
                </Col> 
+                )}  
            </Row>
            <Row>
                <Col>
                <h2>Python</h2>
                </Col> 
+               {project.pythonApps.map(python =>
+               <Col md={3}>
+                 <Cards source={python.img} title={python.name} github={python.gitHub}/>
+               </Col> 
+                )} 
            </Row>
         </div>
     )
