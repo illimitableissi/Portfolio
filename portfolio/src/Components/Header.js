@@ -16,7 +16,7 @@ const Header = () => {
             <div className="introduction">
                 <Row>
                   <Col md={5}>  
-                <h1 className="introduction__header" data-aos="fade-right" data-aos-duration="1000">hello.</h1>
+                <h1 className="introduction__header" data-aos="fade-right" data-aos-duration="1000">Hello.</h1>
                 </Col>
                 </Row>  
                   <Row>

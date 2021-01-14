@@ -12,7 +12,7 @@ const Projects = () => {
            <h1 className="projects__header" data-aos="fade-left" data-aos-duration="1500">Projects</h1>
            <Row>
                <Col>
-               <h2>HTML & Sass</h2>
+               <h2 className="project__subtitles" id="html">HTML & Sass</h2>
                </Col>
                {project.websites.map(website =>
                <Col md={3}>
@@ -22,7 +22,7 @@ const Projects = () => {
            </Row>
            <Row>
                <Col>
-               <h2>MERN Stack</h2>
+               <h2 className="project__subtitles" id="mern">MERN Stack</h2>
                </Col> 
                {project.reactApps.map(react =>
                <Col md={3}>
@@ -32,7 +32,7 @@ const Projects = () => {
            </Row>
            <Row>
                <Col>
-               <h2>Javascript</h2>
+               <h2 className="project__subtitles" id="javascript">Javascript</h2>
                </Col>
                {project.information.map(info =>
                <Col md={3}>
@@ -42,7 +42,7 @@ const Projects = () => {
            </Row>
            <Row>
                <Col>
-               <h2>Python</h2>
+               <h2 className="project__subtitles" id="python">Python</h2>
                </Col> 
                {project.pythonApps.map(python =>
                <Col md={3}>

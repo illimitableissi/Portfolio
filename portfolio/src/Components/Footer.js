@@ -5,7 +5,7 @@ import github from '../img/SVG/github.svg'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id="contact">
             <h1 className="footer__header">Connect!</h1>
             <a href="https://instagram.com/_kingofthesummer"><img src={instagram} alt="Instagram" className="footer__img"/></a>
             <a href="https://www.linkedin.com/in/isimemeninegbedion"><img src={linkedIn} alt="Linkedin" className="footer__img"/></a>

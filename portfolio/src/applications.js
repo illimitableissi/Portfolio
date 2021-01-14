@@ -9,13 +9,13 @@ const websites = [
     name: "Trillo",
     gitHub: "https://github.com/illimitableissi/Trillo-HTML",
     link: "https://illimitableissi.github.io/Trillo-HTML/",
-    img: "img/trillo.PNG"
+    img: "images/trillo.PNG"
     },
     {   
     name: "Nexter",
     gitHub: "https://github.com/illimitableissi/Nexter-HTML",
     link: "https://illimitableissi.github.io/Nexter_HTML/",
-    img: "img/weekndr.PNG"
+    img: ""
     },
 ]
 
@@ -24,17 +24,17 @@ const pythonApps = [
     {   
     name: "Blackjack",
     gitHub: "https://github.com/illimitableissi/Python_Blackjack",
-    img: ""
+    img: "images/background1.jpg"
     },
     {   
     name: "Tic Tac Toe",
     gitHub: "https://github.com/illimitableissi/Python-TicTacToe",
-    img: ""
+    img: "images/background1.jpg"
     },
     {   
     name: "I Declare War",
     gitHub: "https://github.com/illimitableissi/Python_War",
-    img: ""
+    img: "images/background1.jpg"
     },
 ]
 
@@ -44,7 +44,7 @@ const reactApps = [
         name: "Weekendr",
         appLink: "https://illimitableissi.github.io/Weekndr/#/",
         gitHub: "https://github.com/illimitableissi/Weekndr",
-        imgSrc: "images/homescreen.PNG",
+        imgSrc: "images/weekndr.PNG",
         message: "The Weeknd fan page powered by React and Spotify API",
         tech: "MongoDB, React.js, Express.js, Node, CSS, React-Bootstrap, "
     },
@@ -120,7 +120,7 @@ const information = [
         name: "LIRI Bot-Node.js",
         appLink: "#",
         gitHub: "https://github.com/illimitableissi/liri-node-app.git",
-        imgSrc: "images/placeholder10.jpg",
+        imgSrc: "images/background1.jpg",
         message: "Node app that allows users to see movie information, concerts, and music information from various APIs.",
         tech: "Javascript, Node.js, Axios"
     },
@@ -128,7 +128,7 @@ const information = [
         name: "MySQL+Node.js Bamazon",
         appLink: "#",
         gitHub: "https://github.com/illimitableissi/bamazon.git",
-        imgSrc: "images/placeholder11.jpg",
+        imgSrc: "images/background1.jpg",
         message: "Back-end storefront built with MySQL.",
         tech: "Javascript, Node.js, MySQL"
     },
@@ -136,7 +136,7 @@ const information = [
         name: "Friend Finder",
         appLink: "https://friend-finderi.herokuapp.com/",
         gitHub: "https://github.com/illimitableissi/FriendFinder.git",
-        imgSrc: "images/placeholder12.jpg",
+        imgSrc: "images/background1.jpg",
         message: "This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
         tech: "Javascript, Node.js, MySQL, jQuery, Express.js, HTML5, Bootstrap, CSS"
     },

@@ -11,11 +11,11 @@ const Nav = () => {
             <nav className="navigation__nav">
                 <ul className="navigation__list">
                     <li className="navigation__item"><a href="#" className="navigation__link"><span>01 .</span>Introduction</a></li>
-                    <li className="navigation__item"><a href="#" className="navigation__link"><span>02 .</span>HTML & Sass Website Designs</a></li>
-                    <li className="navigation__item"><a href="#" className="navigation__link"><span>03 .</span>MERN Apps</a></li>
-                    <li className="navigation__item"><a href="#" className="navigation__link"><span>04 .</span>Javascript/HTML/CSS Apps</a></li>
-                    <li className="navigation__item"><a href="#" className="navigation__link"><span>04 .</span>Python Apps</a></li>
-                    <li className="navigation__item"><a href="#" className="navigation__link"><span>05 .</span>Connect</a></li>
+                    <li className="navigation__item"><a href="#html" className="navigation__link"><span>02 .</span>HTML & Sass Website Designs</a></li>
+                    <li className="navigation__item"><a href="#mern" className="navigation__link"><span>03 .</span>MERN Apps</a></li>
+                    <li className="navigation__item"><a href="#javascript" className="navigation__link"><span>04 .</span>Javascript/HTML/CSS Apps</a></li>
+                    <li className="navigation__item"><a href="#python" className="navigation__link"><span>04 .</span>Python Apps</a></li>
+                    <li className="navigation__item"><a href="#contact" className="navigation__link"><span>05 .</span>Connect</a></li>
                     </ul>
             </nav>
         </div>
