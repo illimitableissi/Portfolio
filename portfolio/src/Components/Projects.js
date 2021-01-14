@@ -2,7 +2,6 @@ import React from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Cards from './Cards'
-// import { information, reactApps, pythonApps, websites } from '../applications'
 import project from '../applications'
 
 console.log(project)
@@ -17,7 +16,7 @@ const Projects = () => {
                </Col>
                {project.websites.map(website =>
                <Col md={3}>
-                 <Cards src={website.img} title={website.name} link={website.link} />
+                 <Cards source={website.img} title={website.name} link={website.link} github={website.gitHub}/>
                </Col> 
                 )} 
            </Row>

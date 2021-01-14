@@ -2,17 +2,20 @@ const websites = [
     {   
     name: "Natours",
     gitHub: "https://github.com/illimitableissi/Natours_HTML",
-    link: "https://illimitableissi.github.io/Natours_HTML/"
+    link: "https://illimitableissi.github.io/Natours_HTML/",
+    img: "/images/natours.PNG"
     },
     {   
     name: "Trillo",
     gitHub: "https://github.com/illimitableissi/Trillo-HTML",
-    link: "https://illimitableissi.github.io/Trillo-HTML/"
+    link: "https://illimitableissi.github.io/Trillo-HTML/",
+    img: "img/trillo.PNG"
     },
     {   
     name: "Nexter",
     gitHub: "https://github.com/illimitableissi/Nexter-HTML",
-    link: ""
+    link: "https://illimitableissi.github.io/Nexter_HTML/",
+    img: "img/weekndr.PNG"
     },
 ]
 
@@ -21,20 +24,17 @@ const pythonApps = [
     {   
     name: "Blackjack",
     gitHub: "https://github.com/illimitableissi/Python_Blackjack",
-    message: "Blackjack",
-    tech: "Python"
+    message: "Blackjack"
     },
     {   
     name: "Tic Tac Toe",
     gitHub: "https://github.com/illimitableissi/Python-TicTacToe",
-    message: "Tic Tac Toe",
-    tech: "Python"
+    message: "Tic Tac Toe"
     },
     {   
     name: "I Declare War",
     gitHub: "https://github.com/illimitableissi/Python_War",
-    message: "War",
-    tech: "Python"
+    message: "War"
     },
 ]
 
@@ -159,8 +159,4 @@ const information = [
 ]
     
     export default { information, reactApps, pythonApps, websites }
-    // export default information
-    // export default websites
-    // export default reactApps
-    // export default pythonApps
     
