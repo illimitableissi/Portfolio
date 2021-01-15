@@ -84,14 +84,11 @@
             transform: translateX(1rem);
         }
 
-        &:active ~ .navigation__background {
-            transform: scale(0);
-        }
+        &:active {
+            color: red;
+         }
 
-        &:active ~ .navigation__nav {
-            opacity: 0;
-            width: 0;
-        }
+
     }
 
 
