@@ -10,6 +10,8 @@ const Header = () => {
                     <video className="bg-video__content" autoPlay muted playsInLine loop>
                         <source src={vid1} type="video/mp4" />
                         <source src={vid1} type="video/webm" />
+                        <source src={vid1} type="video/ogv" />
+                        <source src={vid1} type="video/ogg" />
                         Your browser is not supported!
                     </video>
             </div>
