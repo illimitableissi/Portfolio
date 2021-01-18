@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 
 const Header = () => {
     return (
+        <div className="video-section">
         <div className="header">
             <div className="bg-video">
                     <video className="bg-video__content" autoPlay muted playsInLine loop>
@@ -28,6 +29,7 @@ const Header = () => {
                 </Col>
                 </Row>
             </div>
+        </div>
         </div>
     );
 };
